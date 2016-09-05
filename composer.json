@@ -1,0 +1,28 @@
+{
+    "name": "uulm/iptv",
+    "description": "nginx-rtmp-module based streaming frontend",
+    "type": "project",
+    "keywords": [
+        "streaming",
+        "rtmp",
+        "hls"
+    ],
+    "homepage": "http://www.xuulm.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "7IN0SAN9",
+            "email": "me@7in0.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "dev-master"
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
